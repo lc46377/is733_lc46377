@@ -1,0 +1,75 @@
+Prompt: what is log odd, odd in logistic regression
+
+In logistic regression, we work with probabilities through the concepts of odds and log odds (also known as the logit).
+
+Odds
+The odds represent the ratio of the probability that an event will occur to the probability that it will not occur. If 
+p is the probability of the event (e.g., success), then the odds are defined as:
+For example, if p=0.8, then the odds are =4, meaning the event is 4 times as likely to occur than not.
+
+Log Odds (Logit)
+The log odds is simply the natural logarithm of the odds:
+
+Interpretation of Coefficients
+Coefficients (𝛽): Each coefficient in the model represents the change in the log odds for a one-unit change in the corresponding predictor variable.
+Exponential of Coefficients: Taking the exponential of a coefficient, exp(βi), gives you the multiplicative change in the odds for a one-unit 
+increase in the predictor Xi
+
+
+Prompt: How to use pairplot for student.csv
+
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+# Load the dataset
+data = pd.read_csv('student_data.csv')
+
+# If the target column is named "Target", use that for hue; otherwise, adjust the column name.
+sns.pairplot(data, hue='Target')
+plt.suptitle('Pairplot of Student Data', y=1.02)
+plt.show()
+
+
+Prompt: How to plot and interpret confusion_matrix
+
+import matplotlib.pyplot as plt
+import seaborn as sns
+from sklearn.metrics import confusion_matrix
+
+# Assuming y_test (true labels) and y_pred (predicted labels) are already defined
+cm = confusion_matrix(y_test, y_pred)
+
+plt.figure(figsize=(6, 5))
+sns.heatmap(cm, annot=True, fmt="d", cmap='Blues')
+plt.xlabel('Predicted Label')
+plt.ylabel('True Label')
+plt.title('Confusion Matrix')
+plt.show()
+
+                Predicted Negative    Predicted Positive
+Actual Negative        TN (True Negative)    FP (False Positive)
+Actual Positive        FN (False Negative)   TP (True Positive)
+
+True Negatives (TN): The number of negative instances correctly predicted as negative.
+False Positives (FP): The number of negative instances incorrectly predicted as positive.
+False Negatives (FN): The number of positive instances incorrectly predicted as negative.
+True Positives (TP): The number of positive instances correctly predicted as positive.
+
+
+Prompt: What is gridsearch
+
+Grid search is a systematic method for hyperparameter tuning where you define a grid (or set) of possible parameter values and then exhaustively train 
+and evaluate the model using every combination from that grid. The goal is to find the best combination that yields the optimal performance based on a specified
+metric (such as accuracy).
+
+How Grid Search Works
+
+1. Parameter Grid:
+You specify a dictionary of parameters and the set of values to try for each parameter
+
+2. Model Evaluation:
+For each combination of parameters in the grid, the model is trained (often using cross-validation to get a more reliable estimate) and its performance is measured.
+
+3. Selection:
+After testing all combinations, the parameter set that produces the best performance metric is selected as the optimal configuration.
