@@ -1,0 +1,53 @@
+Job_Title,Flag,L1_Business opportunity,L2_Find data sources,L3_Explore and visualize data,L4_Develop data (Clean Data),L5_Develop data (Feature-engineer),L6_Develop data (Collect additional data),L7_Train models,L8_Deploy best model,L9_Monitor and manage model usage,L10_Measure success,L11_Retrain or retire model
+AI / ML Specialist ,1,2,3,4,3,3,2,4,4,3,3,4
+AI Adoption Specialist ,1,3,1,1,1,1,0,2,2,3,4,1
+AI Innovation Leader ,1,4,1,1,0,1,1,1,1,2,3,2
+AI Risk & Ethics Specialist ,1,3,2,2,1,2,2,1,2,2,2,1
+AI Test & Evaluation Specialist ,1,1,1,2,1,2,2,2,4,4,4,2
+Assessment Professional ,0,3,2,2,2,2,2,1,1,3,5,2
+Business Analyst ,0,4,3,3,2,1,2,1,0,0,2,0
+Cloud Solutions Architect ,0,1,2,1,1,1,1,0,2,0,0,2
+Communications Specialist ,0,5,0,2,0,0,0,0,1,0,3,0
+Compliance Officer ,0,2,3,1,1,1,2,1,1,1,0,1
+Conceptual Modeler ,0,3,2,3,2,2,2,2,1,1,1,1
+Cyberinfrastructure Professional ,0,0,1,1,2,1,1,2,2,3,1,2
+Cybersecurity Professional ,0,1,3,1,2,2,1,2,4,3,1,1
+Data Analyst ,1,3,4,5,4,3,3,2,2,1,2,1
+Data Architect ,1,2,3,3,3,3,2,2,2,1,1,2
+Data Archivist ,0,2,3,2,2,2,2,1,2,2,1,2
+Data Concierge ,0,4,2,2,2,2,2,1,2,1,1,1
+Data Curator ,0,2,4,3,5,4,5,1,0,1,1,0
+Data Engineer ,0,1,3,3,3,3,3,2,1,1,1,1
+Data Ethicist ,0,4,4,2,1,1,4,1,1,3,2,2
+Data Governance Professional ,0,4,4,4,3,3,4,2,2,4,4,4
+Data Manager ,0,4,3,4,5,4,4,3,3,3,4,3
+Data Officer ,1,4,4,4,3,3,4,2,2,4,4,4
+Data Operations Manager ,0,4,3,4,3,3,3,2,2,2,3,2
+Data Operations Specialist ,1,3,3,4,4,4,3,2,2,2,2,2
+Data Scientist ,1,5,3,5,4,4,4,5,5,5,5,5
+Data Security Analyst ,0,2,2,2,4,2,2,2,2,2,3,2
+Data Steward ,1,4,4,4,3,3,4,1,1,2,2,2
+Database Administrator ,0,2,1,2,2,2,2,1,1,1,1,1
+DevOps Engineer ,0,4,2,3,3,3,2,3,4,4,4,4
+Documentation Specialist ,0,4,1,4,4,3,3,2,2,4,5,2
+Domain Specialist ,0,5,2,4,3,2,2,4,4,4,5,4
+Ethicist ,0,4,4,4,3,3,4,2,2,3,3,3
+Ethics Compliance Manager ,0,2,2,1,1,1,1,1,1,2,2,1
+Information Science Professional ,0,3,3,4,4,3,3,1,1,1,2,1
+Information Security Officer ,0,1,2,2,3,2,2,1,1,1,2,1
+Information Storage Manager ,0,1,3,4,4,3,3,1,1,2,2,1
+Lawyer ,0,3,1,1,1,1,1,1,1,1,1,1
+Library Scientist ,0,1,4,4,3,2,2,0,0,0,0,0
+Machine Learning Engineer ,0,4,3,5,4,4,4,5,4,4,5,4
+Metadata Manager/Engineer ,0,2,3,4,4,4,3,2,2,2,3,2
+MLOps Engineer ,0,3,2,3,3,3,2,4,5,5,5,4
+Performance Engineer ,0,1,1,3,2,2,2,5,4,5,5,4
+Privacy Manager ,0,3,3,3,3,2,3,3,3,3,3,3
+Project Manager ,0,5,4,3,2,3,3,3,3,4,5,5
+Repository Steward ,0,2,2,3,3,2,2,2,1,2,3,1
+Semantic Engineer ,0,4,4,3,3,3,3,2,3,3,3,3
+Social Scientist ,0,5,4,4,3,3,4,3,3,3,3,3
+Software Egnineer/Developer ,0,2,1,2,2,2,2,4,4,4,3,4
+System Administrator ,0,1,1,2,2,1,1,1,2,2,2,2
+Systems Engineer ,0,1,1,2,2,2,1,2,2,3,2,2
+Workflow/Pipeline Developer ,0,4,3,4,4,3,3,3,3,3,3,4
